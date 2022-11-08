@@ -38,7 +38,7 @@ This is an extremely simple and easy Meraki and Prisma Access integration GUI bu
 5. Hit "Play" on the **Meraki Integration** section.
 6. If setup is complete, you should see a table view of all Meraki Networks:
 
-   [![Integration Notebook Screenshot](https://github.com/ebob9/meraki_prisma_access/raw/main/images/integration-example.png)]
+   ![Integration Notebook Screenshot](https://github.com/ebob9/meraki_prisma_access/raw/main/images/integration-example.png)
 7. To use the interface, simply select a region and SPN (Security Processing Node) for a site. 
 8. Hit `Commit` to send changes to Meraki and Prisma Access.
 
