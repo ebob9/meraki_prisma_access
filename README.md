@@ -9,7 +9,7 @@ This is an extremely simple and easy Meraki and Prisma Access integration GUI bu
 * Active Meraki Network and Subscription
 * Active Prisma Access Subscription
 * Python modules (installed automatically by Google Colaboratory):
-    * Meraki Dashboard API SDK - <https://github.com/meraki/meraki-python-sdk> 
+    * Meraki Dashboard API SDK - <https://github.com/meraki/dashboard-api-python/> 
     * Prisma SASE SDK: prisma_sase - <https://github.com/PaloAltoNetworks/prisma-sase-sdk-python>
 
 #### NOTES and LIMITATIONS:
