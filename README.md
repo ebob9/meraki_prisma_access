@@ -14,6 +14,7 @@ This is an extremely simple and easy Meraki and Prisma Access integration GUI bu
 
 #### NOTES and LIMITATIONS:
 * Meraki sites must be in a _"Third Party VPN"_ capable mode and contain devices that can perform these VPNs (MX, etc.)
+* Meraki sites must also be in VLAN mode.
 * Due to limitations in the Meraki Third Party VPN public API, **ONLY Third Party Tunnels created by this integration may be present. All other Third Party Tunnels WILL BE DELETED.**
   * This integration limitation due specifically to the following Meraki API limitations:
     1. The Meraki "Third Party VPN" requires ALL TUNNELS network-wide to be re-sent when adding/removing/changing any single tunnel.
@@ -22,7 +23,7 @@ This is an extremely simple and easy Meraki and Prisma Access integration GUI bu
 * Prisma Access subscription must be in "Aggregate Bandwidth" mode.
 * Prisma Access administrator must allocate bandwidth to Remote Network region(s), or no region(s) will be present in this integration UI.
 * The Integration defaults to the Prisma Access Cisco ISR Crypto profile. If another Crypto profile is configured in Prisma Access for these units, it will need to be switched.
-* This Integration 
+
 
 #### Using the Integration
 1. [Launch the integration in Google Colaboratory.](https://colab.research.google.com/github/ebob9/meraki_prisma_access/blob/main/Meraki_%2B_Prisma_Access_Integration.ipynb)
