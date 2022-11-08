@@ -1,4 +1,5 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ebob9/meraki_prisma_access/blob/main/Meraki_%2B_Prisma_Access_Integration.ipynb]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ebob9/meraki_prisma_access/blob/main/Meraki_%2B_Prisma_Access_Integration.ipynb)
+
 # Meraki + Prisma Access Integration Script/GUI
 
 #### Synopsis
@@ -37,7 +38,7 @@ This is an extremely simple and easy Meraki and Prisma Access integration GUI bu
 5. Hit "Play" on the **Meraki Integration** section.
 6. If setup is complete, you should see a table view of all Meraki Networks:
 
-   [![Integration Notebook Screenshot](https://raw.githubusercontent.com/ebob9/meraki_prisma_access/master/images/integration-example.png)]
+   [![Integration Notebook Screenshot](https://github.com/ebob9/meraki_prisma_access/raw/main/images/integration-example.png)]
 7. To use the interface, simply select a region and SPN (Security Processing Node) for a site. 
 8. Hit `Commit` to send changes to Meraki and Prisma Access.
 
